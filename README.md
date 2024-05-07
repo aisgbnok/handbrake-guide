@@ -1,16 +1,21 @@
-# HandBrake Guide (Quick and Dirty)
+# HandBrake Guide
 
-This basic guide provides instructions on how to use HandBrake for converting low-resolution analog and DVD media into modern digital formats.
-The guide assumes that your source media is no larger than 1080p and recommends the `Super HQ 1080p30 Surround` preset for such cases.
-In this case no modifications are necessary; however, some notable settings are described below.
+This document serves as a basic exploration of Handbrake's video transcoding capabilities,
+focusing on converting legacy analog and DVD media into contemporary digital formats.
+While the `Super HQ 1080p30 Surround` preset provides a robust foundation for source material up to 1080p resolution,
+an understanding of the underlying encoding parameters empowers users to fine-tune the transcoding process for superior results tailored to specific content characteristics and quality objectives.
+
+> [!IMPORTANT]  
+> If your source media is no larger than 1080p, the `Super HQ 1080p30 Surround` preset suffices.
+> In this case, no modifications are necessary; however, some notable settings are described below.
+
+## Summary
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/images/handbrake-summary-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="/images/handbrake-summary-light.png">
   <img alt="HandBrake Summary Tab" src="/images/handbrake-summary-light.png">
 </picture>
-
-## Summary
 
 ### Align A/V Start
 
